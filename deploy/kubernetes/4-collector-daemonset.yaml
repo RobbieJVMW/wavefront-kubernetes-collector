@@ -38,9 +38,6 @@ spec:
         - name: ssl-certs
           mountPath: /etc/ssl/certs
           readOnly: true
-        - mountPath: /etc/collector/
-          name: config
-          readOnly: true
         ports:
         - containerPort: 8088
           protocol: TCP
